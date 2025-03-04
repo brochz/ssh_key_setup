@@ -8,4 +8,5 @@ A Python script to Set Up SSH Passwordless Login Automatically
 
 ## Usage:
 py ssh_key_setup.py username@hostname
+
 python3 ssh_key_setup.py username@hostname
