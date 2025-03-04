@@ -1,2 +1,11 @@
 # ssh_key_setup
-Set Up SSH Passwordless Login Automatically
+A Python script to Set Up SSH Passwordless Login Automatically
+
+## Prerequisites
+1. Make sure OpenSSH is installed (Run `ssh -v`)
+2. Install python3.5+
+3. pip install paramiko
+
+## Usage:
+py ssh_key_setup.py username@hostname
+python3 ssh_key_setup.py username@hostname
