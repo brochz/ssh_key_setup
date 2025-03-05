@@ -11,4 +11,5 @@ A Python script to Set Up SSH Passwordless Login Automatically
 user@localhost%>> python3 ./ssh_key_setup.py  remote_username@remote_hostname
 
 If the SSH port is not the default 22:
-user@localhost%>> python3 ./ssh_key_setup.py [--port 1234] remote_username@remote_hostname
+
+user@localhost%>> python3 ./ssh_key_setup.py --port 1234 remote_username@remote_hostname
